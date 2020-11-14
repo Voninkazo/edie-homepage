@@ -27,8 +27,6 @@
 .section__goals {
     >div {
         padding-left: calc(40px - 13px);
-    }
-    h2 {
         max-width: 275px;
         margin-right: auto;
         margin: 0;
@@ -41,6 +39,9 @@
         color: #4F4F4F;
         margin: 0;
         padding-bottom: 31px;
+    }
+    h2 {
+        margin: 0;
     }
     form {
         display: flex;
@@ -81,6 +82,19 @@
             margin-right: 0;
         }
         h2 {
+            padding-bottom: 42px;
+        }
+    }
+    .section__goals {
+        padding-bottom: 102px;
+        >div {
+            max-width: 366px;
+            padding-left: calc(277px - 13px);
+        }
+        h2 {
+            padding-bottom: 42px;
+        }
+        p {
             padding-bottom: 42px;
         }
     }

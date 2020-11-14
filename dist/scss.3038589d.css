@@ -230,8 +230,6 @@ input[type=checkbox]:checked ~ div > nav {
 
 .section__goals > div {
   padding-left: calc(40px - 13px);
-}
-.section__goals h2 {
   max-width: 275px;
   margin-right: auto;
   margin: 0;
@@ -244,6 +242,9 @@ input[type=checkbox]:checked ~ div > nav {
   color: #4F4F4F;
   margin: 0;
   padding-bottom: 31px;
+}
+.section__goals h2 {
+  margin: 0;
 }
 .section__goals form {
   display: flex;
@@ -282,6 +283,20 @@ input[type=checkbox]:checked ~ div > nav {
     margin-right: 0;
   }
   .section__adds h2 {
+    padding-bottom: 42px;
+  }
+
+  .section__goals {
+    padding-bottom: 102px;
+  }
+  .section__goals > div {
+    max-width: 366px;
+    padding-left: calc(277px - 13px);
+  }
+  .section__goals h2 {
+    padding-bottom: 42px;
+  }
+  .section__goals p {
     padding-bottom: 42px;
   }
 }
