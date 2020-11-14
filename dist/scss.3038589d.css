@@ -47,9 +47,13 @@ ul {
   padding: 0;
 }
 
-@media (min-width: 1114px) {
-  .container,
+article,
 .wrapper {
+  padding: 13px;
+}
+
+@media (min-width: 1114px) {
+  article {
     max-width: 1114px;
     margin: auto;
   }
@@ -176,8 +180,8 @@ input[type=checkbox]:checked ~ div > nav {
     padding: 0;
   }
   .navigation ul li {
-    padding: 0;
     margin-left: 52px;
+    padding: 0;
   }
   .navigation ul li a {
     color: #333333;
@@ -196,6 +200,42 @@ input[type=checkbox]:checked ~ div > nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    margin: auto;
+    max-width: 1114px;
+  }
+}
+.section__adds > div {
+  max-width: 272px;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-left: calc(40px - 13px);
+}
+.section__adds p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2D9CDB;
+  margin: 0;
+  padding-bottom: 15px;
+}
+.section__adds h2 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+.section__adds .img_design {
+  width: 100%;
+  border-radius: 18px;
+}
+
+@media (min-width: 1114px) {
+  .section__adds > div {
+    max-width: 543px;
+    padding-left: calc(277px - 13px);
+    padding-top: 96px;
+    margin-right: 0;
+  }
+  .section__adds h2 {
+    padding-bottom: 42px;
   }
 }
 

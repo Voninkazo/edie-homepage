@@ -1,0 +1,39 @@
+@import "./variables";
+.section__adds {
+    >div {
+        max-width: 272px;
+        margin-right: auto;
+        padding-top: 40px;
+        padding-left: calc(40px - 13px);
+    }
+    p {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #2D9CDB;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    h2 {
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .img_design {
+        width: 100%;
+        border-radius: 18px
+    }
+}
+
+@media (min-width: 1114px) {
+    .section__adds {
+        >div {
+            max-width: 543px;
+            padding-left: calc(277px - 13px);
+            padding-top: 96px;
+            margin-right: 0;
+        }
+        h2 {
+            padding-bottom: 42px;
+        }
+    }
+}

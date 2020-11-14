@@ -14,9 +14,13 @@ ul {
     padding: 0;
 }
 
+article,
+.wrapper {
+    padding: 13px;
+}
+
 @media (min-width:1114px) {
-    .container,
-    .wrapper {
+    article {
         max-width: 1114px;
         margin: auto;
     }
