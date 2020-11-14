@@ -61,10 +61,36 @@ h1 {
   color: #333333;
 }
 
+h2 {
+  font-family: "Poppins Medium";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+h3 {
+  font-family: "Poppins Medium";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
 @media (min-width: 1114px) {
   h1 {
     font-size: 36px;
     line-height: 53px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 72px;
   }
 }
 header > div {
