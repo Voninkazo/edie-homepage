@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("/heebo-extra-bold.f7176869.woff2") format("woff2"), url("/heebo-extra-bold.f5373175.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/poppins-regular.f078ce5a.woff2") format("woff2"), url("/poppins-regular.ea1aea9a.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("/poppins-bold.49767633.woff2") format("woff2"), url("/poppins-bold.e7e7e085.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("/poppins-medium.f3a0b5cc.woff2") format("woff2"), url("/poppins-medium.87f61549.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins Light";
+  src: url("/poppins-light.7b7d5495.woff2") format("woff2"), url("/poppins-light.12225c57.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Poppins";
+}
+
+/*# sourceMappingURL=/scss.3038589d.css.map */
