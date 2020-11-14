@@ -49,7 +49,8 @@ ul {
 
 article,
 .wrapper {
-  padding: 13px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 @media (min-width: 1114px) {
@@ -227,6 +228,52 @@ input[type=checkbox]:checked ~ div > nav {
   border-radius: 18px;
 }
 
+.section__goals > div {
+  padding-left: calc(40px - 13px);
+}
+.section__goals h2 {
+  max-width: 275px;
+  margin-right: auto;
+  margin: 0;
+  padding-top: 22px;
+  padding-bottom: 33px;
+}
+.section__goals p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #4F4F4F;
+  margin: 0;
+  padding-bottom: 31px;
+}
+.section__goals form {
+  display: flex;
+  flex-direction: column;
+}
+.section__goals form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #F2F2F2;
+  border-radius: 12px;
+  padding: 4px;
+}
+.section__goals form > div input {
+  border: none;
+  background: #F2F2F2;
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  outline: none;
+}
+.section__goals form label {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 1114px) {
   .section__adds > div {
     max-width: 543px;
@@ -237,6 +284,19 @@ input[type=checkbox]:checked ~ div > nav {
   .section__adds h2 {
     padding-bottom: 42px;
   }
+}
+.link-to-join {
+  padding-left: 20px;
+  padding-right: 21px;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  background: #2D9CDB;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* Gray 6 */
+  color: #F2F2F2;
 }
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
