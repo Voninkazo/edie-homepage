@@ -3,3 +3,21 @@ html {}
 body {
     font-family: 'Poppins';
 }
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media (min-width:1114px) {
+    .container,
+    .wrapper {
+        max-width: 1114px;
+        margin: auto;
+    }
+}

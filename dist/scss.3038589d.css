@@ -29,12 +29,148 @@
 @font-face {
   font-family: "Poppins Light";
   src: url("/poppins-light.7b7d5495.woff2") format("woff2"), url("/poppins-light.12225c57.woff") format("woff");
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 body {
   font-family: "Poppins";
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (min-width: 1114px) {
+  .container,
+.wrapper {
+    max-width: 1114px;
+    margin: auto;
+  }
+}
+h1 {
+  font-family: "Heebo";
+  font-size: 24px;
+  line-height: 35px;
+  color: #333333;
+}
+
+@media (min-width: 1114px) {
+  h1 {
+    font-size: 36px;
+    line-height: 53px;
+  }
+}
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+[type=checkbox] {
+  display: none;
+}
+
+.icon__close {
+  position: absolute;
+  cursor: pointer;
+  right: 21px;
+  top: 21px;
+  background: #ededed;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #181717;
+  z-index: 3;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  transform: translateX(-110%);
+  transition: transform 1s;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.navigation ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30%;
+}
+.navigation ul li {
+  margin-top: 40px;
+}
+.navigation ul li a {
+  font-family: "Poppins Medium";
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.icon__menu {
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ div > nav {
+  transform: translateX(0);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 1114px) {
+  .navigation {
+    z-index: 3;
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 0 0;
+    background: none;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+  }
+  .navigation ul {
+    flex-direction: row;
+    padding: 0;
+  }
+  .navigation ul li {
+    padding: 0;
+    margin-left: 52px;
+  }
+  .navigation ul li a {
+    color: #333333;
+  }
+
+  .icon__menu {
+    display: none;
+  }
+
+  .icon__close {
+    display: none;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
