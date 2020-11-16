@@ -336,21 +336,22 @@ input[type=checkbox]:checked ~ div > nav {
   color: #ffffff;
 }
 
-.offering--btn {
+.offering--btn svg {
   padding: 20px;
-  color: #ffffff;
   border-radius: 16px;
 }
 
-.btn__create {
+.btn__create svg {
   background-color: #2D9CDB;
 }
 
 .btn__frontend--offer {
   background-color: #27AE60;
+  padding: 20px;
+  border-radius: 16px;
 }
 
-.btn__backend--offer {
+.btn__backend--offer svg {
   background-color: #EB5757;
 }
 
