@@ -355,6 +355,20 @@ input[type=checkbox]:checked ~ div > nav {
   background-color: #EB5757;
 }
 
+.link-to-see-more {
+  font-family: "Poppins Medium";
+  text-transform: lowercase;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2D9CDB;
+}
+
+@media (min-width: 1114px) {
+  .link-to-see-more {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
 .section__services--offer {
   margin-bottom: calc(146px - 43px);
 }
@@ -390,6 +404,9 @@ input[type=checkbox]:checked ~ div > nav {
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
 }
 
+.section__design--samples {
+  margin-bottom: 100px;
+}
 .section__design--samples h3 {
   padding-left: calc(40px - 13px);
   padding-bottom: 48px;
@@ -431,6 +448,9 @@ input[type=checkbox]:checked ~ div > nav {
     margin-block-start: 0;
   }
 
+  .section__design--samples > p {
+    text-align: end;
+  }
   .section__design--samples h3 {
     max-width: 448px;
     padding-bottom: 0;
@@ -467,6 +487,32 @@ input[type=checkbox]:checked ~ div > nav {
     font-size: 24px;
     line-height: 36px;
   }
+}
+.section__team h3 {
+  font-family: "Poppins Medium";
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+  margin: 0;
+}
+.section__team .introduction__heading {
+  font-family: "Poppins Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #EB5757;
+  margin: 0;
+}
+.section__team .team__img_container {
+  display: flex;
+  flex-direction: row;
+}
+.section__team .team__img_container > li:nth-of-type(1) {
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.section__team .team__img_container img {
+  width: 100%;
+  border-radius: 24px;
 }
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
