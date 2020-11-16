@@ -53,11 +53,19 @@ article,
   padding-right: 13px;
 }
 
+main {
+  margin-bottom: 103px;
+}
+
 @media (min-width: 1114px) {
   article {
     max-width: 1114px;
     margin: auto;
     padding: 0;
+  }
+
+  main {
+    margin-bottom: 203px;
   }
 }
 h1 {
@@ -489,6 +497,9 @@ input[type=checkbox]:checked ~ div > nav {
     line-height: 36px;
   }
 }
+.section__team {
+  margin-bottom: 100px;
+}
 .section__team h3 {
   font-family: "Poppins Medium";
   font-size: 36px;
@@ -527,6 +538,48 @@ input[type=checkbox]:checked ~ div > nav {
   }
   .section__team > div:nth-of-type(2) {
     margin-left: 170px;
+  }
+}
+.section--more--info p {
+  font-family: "Poppins Medium";
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+.section--more--info figure {
+  margin: 0;
+}
+.section--more--info figure a {
+  display: flex;
+  flex-direction: row;
+}
+.section--more--info figure a img {
+  width: 82px;
+  height: 82px;
+  border-radius: 12px;
+}
+.section--more--info figure a p {
+  font-family: "Poppins Medium";
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  padding-bottom: 12px;
+}
+.section--more--info figure a small {
+  font-family: "Poppins Medium";
+  font-size: 18px;
+  line-height: 27px;
+  color: #828282;
+}
+.section--more--info figure a div {
+  margin-left: 30px;
+}
+
+@media (min-width: 1114px) {
+  .section--more--info p {
+    font-size: 36px;
+    line-height: 54px;
   }
 }
 

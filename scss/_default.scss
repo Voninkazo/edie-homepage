@@ -20,10 +20,17 @@ article,
     padding-right: 13px;
 }
 
+main {
+    margin-bottom: 103px;
+}
+
 @media (min-width:1114px) {
     article {
         max-width: 1114px;
         margin: auto;
         padding: 0;
+    }
+    main {
+        margin-bottom: 203px;
     }
 }
