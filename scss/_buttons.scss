@@ -4,11 +4,43 @@
     padding-right: 21px;
     padding-top: 11px;
     padding-bottom: 13px;
-    background: #2D9CDB;
+    background-color: #2D9CDB;
     border-radius: 12px;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    /* Gray 6 */
     color: #F2F2F2;
+}
+
+.btn__start_joining {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    background-color: #E0E0E0;
+    border-radius: 12px;
+    padding: 9px 13px;
+}
+
+.btn__start_joining:hover {
+    background-color: #2D9CDB;
+    color: #ffffff;
+}
+
+.offering--btn {
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+.btn__create {
+    background-color: #2D9CDB;
+}
+
+.btn__frontend--offer {
+    background-color: #27AE60;
+}
+
+.btn__backend--offer {
+    background-color: #EB5757;
 }

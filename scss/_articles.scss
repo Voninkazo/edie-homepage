@@ -1,8 +1,8 @@
 @import "./variables";
 .section__adds {
     >div {
-        max-width: 272px;
-        margin-right: auto;
+        // max-width: 272px;
+        // margin-right: auto;
         padding-top: 40px;
         padding-left: calc(40px - 13px);
     }
@@ -27,11 +27,8 @@
 .section__goals {
     >div {
         padding-left: calc(40px - 13px);
-        max-width: 275px;
-        margin-right: auto;
-        margin: 0;
         padding-top: 22px;
-        padding-bottom: 33px;
+        padding-bottom: 102px;
     }
     p {
         font-size: 12px;
@@ -39,6 +36,7 @@
         color: #4F4F4F;
         margin: 0;
         padding-bottom: 31px;
+        padding-top: 33px;
     }
     h2 {
         margin: 0;
@@ -87,6 +85,12 @@
     }
     .section__goals {
         padding-bottom: 102px;
+        form {
+            label {
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
         >div {
             max-width: 366px;
             padding-left: calc(277px - 13px);
@@ -96,6 +100,8 @@
         }
         p {
             padding-bottom: 42px;
+            font-size: 18px;
+            line-height: 27px;
         }
     }
 }
