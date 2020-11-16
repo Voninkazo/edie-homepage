@@ -68,7 +68,7 @@ main {
     margin-bottom: 203px;
   }
 }
-h1 {
+.main__heading {
   font-family: "Heebo";
   font-size: 24px;
   line-height: 35px;
@@ -99,7 +99,7 @@ h4 {
 }
 
 @media (min-width: 1114px) {
-  h1 {
+  .main__heading {
     font-size: 36px;
     line-height: 53px;
   }
@@ -258,34 +258,6 @@ input[type=checkbox]:checked ~ div > nav {
 .section__goals h2 {
   margin: 0;
 }
-.section__goals form {
-  display: flex;
-  flex-direction: column;
-}
-.section__goals form > div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background: #F2F2F2;
-  border-radius: 12px;
-  padding: 4px;
-}
-.section__goals form > div input {
-  border: none;
-  background: #F2F2F2;
-  border-radius: 12px;
-  padding-top: 15px;
-  padding-bottom: 9px;
-  padding-left: 19px;
-  outline: none;
-}
-.section__goals form label {
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 15px;
-  color: #828282;
-  margin-bottom: 10px;
-}
 
 @media (min-width: 1114px) {
   .section__adds > div {
@@ -300,10 +272,6 @@ input[type=checkbox]:checked ~ div > nav {
 
   .section__goals {
     padding-bottom: 200px;
-  }
-  .section__goals form label {
-    font-size: 14px;
-    line-height: 21px;
   }
   .section__goals > div {
     max-width: 366px;
@@ -580,6 +548,95 @@ input[type=checkbox]:checked ~ div > nav {
   .section--more--info p {
     font-size: 36px;
     line-height: 54px;
+  }
+}
+.footer__nav {
+  margin-bottom: 64px;
+}
+.footer__nav li a {
+  font-size: 18px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
+
+.div--more--links .main__heading {
+  color: #F2F2F2;
+}
+.div--more--links ul {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 65px;
+}
+.div--more--links ul span {
+  display: none;
+}
+.div--more--links ul li:not(:nth-of-type(1)) {
+  margin-left: 11px;
+}
+
+footer {
+  background-color: #100E1D;
+  padding-top: 36px;
+  padding-left: calc(40px - 13px);
+  padding-bottom: 45px;
+}
+footer .footer__container {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+footer form {
+  padding-bottom: 133px;
+}
+
+footer .developper__name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A9A9A9;
+  text-align: center;
+}
+
+@media (min-width: 1114px) {
+  .footer__container {
+    padding: 0;
+    max-width: 1114px;
+    margin: auto;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #F2F2F2;
+  border-radius: 12px;
+  padding: 4px;
+}
+form > div input {
+  border: none;
+  background: #F2F2F2;
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  outline: none;
+}
+form label {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1114px) {
+  form label {
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 

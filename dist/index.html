@@ -13,7 +13,7 @@
     <div class="wrapper">
         <header>
             <div>
-                <h1><a href="/">Edie</a></h1>
+                <h1><a href="/" class="main__heading">Edie</a></h1>
                 <label for="menu_checkbox">
               <span class="icon__menu">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
@@ -194,7 +194,7 @@
         </article>
     </main>
     <footer>
-        <div>
+        <div class="footer__container">
             <nav>
                 <ul class="footer__nav">
                     <li><a href="/">Home</a></li>
@@ -204,19 +204,37 @@
                     <li><a href="./contacts">Contacts</a></li>
                 </ul>
             </nav>
-            <div>
-                <p><a href="/">Edie</a></p>
+            <div class="div--more--links">
+                <p><a href="/" class="main__heading">Edie</a></p>
                 <ul>
-                    <li><a href="/instagram"><span>Instagram</span></a></li>
-                    <li><a href="/in"><span>In</span></a></li>
-                    <li><a href="/twitter"><span>Twitter</span></a></li>
+                    <li>
+                        <a href="/instagram">
+                            <span>Instagram</span>
+                            <img src="/instagram.a3150bcd.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/in">
+                            <span>In</span>
+                            <img src="/linkedin.c3b3d9c3.svg" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/twitter">
+                            <span>Twitter</span>
+                            <img src="/twitter.88ad76c6.svg" alt="twitter">
+                        </a>
+                    </li>
                 </ul>
             </div>
             <form>
                 <label>Want us to contact you?</label>
-                <input type="email" name="email" placeholder="Email">
-                <a href="./join" class="ink-to-join">Join</a>
+                <div>
+                    <input type="email" name="email" placeholder="Email">
+                    <a href="./join" class="link-to-join">Join</a>
+                </div>
             </form>
+            <p class="developper__name">Sandy Rav @ DevChallenges.io</p>
         </div>
     </footer>
 </body>

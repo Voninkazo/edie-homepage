@@ -1,0 +1,30 @@
+footer {
+    background-color: #100E1D;
+    padding-top: 36px;
+    padding-left: calc(40px - 13px);
+    padding-bottom: 45px;
+    .footer__container {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+}
+
+footer form {
+    padding-bottom: 133px;
+}
+
+footer .developper__name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    text-align: center;
+}
+
+@media(min-width:1114px) {
+    .footer__container {
+        padding: 0;
+        max-width: 1114px;
+        margin: auto;
+    }
+}

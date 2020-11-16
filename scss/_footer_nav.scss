@@ -1,0 +1,27 @@
+.footer__nav {
+    margin-bottom: 64px;
+    li {
+        a {
+            font-size: 18px;
+            line-height: 200%;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.div--more--links {
+    .main__heading {
+        color: #F2F2F2;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 65px;
+        span {
+            display: none;
+        }
+        li:not(:nth-of-type(1)) {
+            margin-left: 11px;
+        }
+    }
+}
