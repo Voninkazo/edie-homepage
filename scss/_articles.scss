@@ -84,7 +84,7 @@
         }
     }
     .section__goals {
-        padding-bottom: 102px;
+        padding-bottom: 200px;
         form {
             label {
                 font-size: 14px;
@@ -94,6 +94,7 @@
         >div {
             max-width: 366px;
             padding-left: calc(277px - 13px);
+            padding-bottom: 0;
         }
         h2 {
             padding-bottom: 42px;
