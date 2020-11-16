@@ -57,6 +57,7 @@ article,
   article {
     max-width: 1114px;
     margin: auto;
+    padding: 0;
   }
 }
 h1 {
@@ -507,12 +508,26 @@ input[type=checkbox]:checked ~ div > nav {
   flex-direction: row;
 }
 .section__team .team__img_container > li:nth-of-type(1) {
-  margin-top: 100px;
+  margin-top: 20%;
   margin-right: 20px;
 }
 .section__team .team__img_container img {
   width: 100%;
   border-radius: 24px;
+}
+
+@media (min-width: 1114px) {
+  .section__team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .section__team > div:nth-of-type(1) {
+    max-width: 280px;
+  }
+  .section__team > div:nth-of-type(2) {
+    margin-left: 170px;
+  }
 }
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
