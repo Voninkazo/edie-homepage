@@ -168,6 +168,10 @@ header > div {
   line-height: 36px;
   color: #ffffff;
 }
+.navigation ul li a:hover {
+  color: #cccccc;
+  transition: 0.3s;
+}
 
 .icon__menu {
   cursor: pointer;
@@ -549,6 +553,9 @@ input[type=checkbox]:checked ~ div > nav {
     font-size: 36px;
     line-height: 54px;
   }
+  .section--more--info .flex--container {
+    max-width: 937px;
+  }
 }
 .footer__nav {
   margin-bottom: 64px;
@@ -574,22 +581,27 @@ input[type=checkbox]:checked ~ div > nav {
   margin-left: 11px;
 }
 
-footer {
+@media (min-width: 1114px) {
+  .main__heading {
+    margin: 0;
+  }
+}
+body > footer {
   background-color: #100E1D;
   padding-top: 36px;
   padding-left: calc(40px - 13px);
   padding-bottom: 45px;
 }
-footer .footer__container {
+body > footer .footer__container {
   padding-left: 13px;
   padding-right: 13px;
 }
 
-footer form {
+body > footer form {
   padding-bottom: 133px;
 }
 
-footer .developper__name {
+body > footer .developper__name {
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
@@ -598,10 +610,14 @@ footer .developper__name {
 }
 
 @media (min-width: 1114px) {
-  .footer__container {
-    padding: 0;
+  body > footer .footer__container {
     max-width: 1114px;
     margin: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 356px;
+    align-items: baseline;
   }
 }
 form {
@@ -637,6 +653,10 @@ form label {
   form label {
     font-size: 14px;
     line-height: 21px;
+  }
+
+  body > footer form label {
+    color: #F2F2F2;
   }
 }
 

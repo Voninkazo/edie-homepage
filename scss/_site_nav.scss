@@ -50,6 +50,10 @@
                     line-height: 36px;
                     color: #ffffff;
                 }
+                a:hover {
+                    color: #cccccc;
+                    transition: 0.3s;
+                }
             }
         }
     }

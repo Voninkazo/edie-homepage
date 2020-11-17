@@ -1,4 +1,4 @@
-footer {
+body>footer {
     background-color: #100E1D;
     padding-top: 36px;
     padding-left: calc(40px - 13px);
@@ -9,11 +9,11 @@ footer {
     }
 }
 
-footer form {
+body>footer form {
     padding-bottom: 133px;
 }
 
-footer .developper__name {
+body>footer .developper__name {
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
@@ -22,9 +22,13 @@ footer .developper__name {
 }
 
 @media(min-width:1114px) {
-    .footer__container {
-        padding: 0;
+    body>footer .footer__container {
         max-width: 1114px;
         margin: auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 356px;
+        align-items: baseline;
     }
 }
