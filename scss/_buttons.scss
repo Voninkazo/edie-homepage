@@ -22,9 +22,11 @@
     padding: 9px 13px;
 }
 
-.btn__start_joining:hover {
-    background-color: #2D9CDB;
-    color: #ffffff;
+.offering__container:hover {
+    .btn__start_joining {
+        background-color: #2D9CDB;
+        color: #ffffff;
+    }
 }
 
 .offering--btn svg {
@@ -52,6 +54,9 @@
     font-size: 18px;
     line-height: 27px;
     color: #2D9CDB;
+    background-image: url(../webroot/icons/arrow_right.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
 }
 
 @media(min-width:1114px) {

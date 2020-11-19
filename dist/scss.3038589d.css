@@ -33,9 +33,17 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: url("/montserrat-600.7e4b03bc.woff2") format("woff2"), url("/montserrat-600.65eb1a69.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   font-family: "Poppins";
   background-color: #FFFFFF;
+  margin: 0;
 }
 
 a {
@@ -66,6 +74,11 @@ main {
 
   main {
     margin-bottom: 203px;
+  }
+
+  article,
+.wrapper {
+    padding: 0;
   }
 }
 .main__heading {
@@ -102,6 +115,7 @@ h4 {
   .main__heading {
     font-size: 36px;
     line-height: 53px;
+    margin: 0;
   }
 
   h2 {
@@ -314,7 +328,7 @@ input[type=checkbox]:checked ~ div > nav {
   padding: 9px 13px;
 }
 
-.btn__start_joining:hover {
+.offering__container:hover .btn__start_joining {
   background-color: #2D9CDB;
   color: #ffffff;
 }
@@ -342,6 +356,9 @@ input[type=checkbox]:checked ~ div > nav {
   font-size: 18px;
   line-height: 27px;
   color: #2D9CDB;
+  background-image: url(/arrow_right.bd98ca69.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
 }
 
 @media (min-width: 1114px) {
@@ -383,6 +400,7 @@ input[type=checkbox]:checked ~ div > nav {
 
 .offering__container:hover {
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  cursor: pointer;
 }
 
 .section__design--samples {
@@ -581,11 +599,6 @@ input[type=checkbox]:checked ~ div > nav {
   margin-left: 11px;
 }
 
-@media (min-width: 1114px) {
-  .main__heading {
-    margin: 0;
-  }
-}
 body > footer {
   background-color: #100E1D;
   padding-top: 36px;
@@ -602,7 +615,7 @@ body > footer form {
 }
 
 body > footer .developper__name {
-  font-weight: 600;
+  font-family: "Montserrat SemiBold";
   font-size: 14px;
   line-height: 17px;
   color: #A9A9A9;
