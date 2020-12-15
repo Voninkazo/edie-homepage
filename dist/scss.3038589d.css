@@ -40,6 +40,10 @@
   font-style: normal;
   font-display: swap;
 }
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: "Poppins";
   background-color: #FFFFFF;
@@ -183,7 +187,7 @@ header > div {
   color: #ffffff;
 }
 .navigation ul li a:hover {
-  color: #cccccc;
+  color: #EB5757;
   transition: 0.3s;
 }
 
@@ -241,7 +245,7 @@ input[type=checkbox]:checked ~ div > nav {
 }
 .section__adds > div {
   padding-top: 40px;
-  padding-left: calc(40px - 13px);
+  padding-left: calc(40px - $horizontal-default-space);
 }
 .section__adds p {
   font-weight: 500;
@@ -261,7 +265,7 @@ input[type=checkbox]:checked ~ div > nav {
 }
 
 .section__goals > div {
-  padding-left: calc(40px - 13px);
+  padding-left: calc(40px - $horizontal-default-space);
   padding-top: 22px;
   padding-bottom: 102px;
 }
@@ -280,7 +284,7 @@ input[type=checkbox]:checked ~ div > nav {
 @media (min-width: 1114px) {
   .section__adds > div {
     max-width: 543px;
-    padding-left: calc(277px - 13px);
+    padding-left: calc(277px - $horizontal-default-space);
     padding-top: 96px;
     margin-right: 0;
   }
@@ -293,7 +297,7 @@ input[type=checkbox]:checked ~ div > nav {
   }
   .section__goals > div {
     max-width: 366px;
-    padding-left: calc(277px - 13px);
+    padding-left: calc(277px - $horizontal-default-space);
     padding-bottom: 0;
   }
   .section__goals h2 {
@@ -316,6 +320,10 @@ input[type=checkbox]:checked ~ div > nav {
   font-size: 14px;
   line-height: 21px;
   color: #F2F2F2;
+}
+
+.link-to-join:hover {
+  background-color: #079df5;
 }
 
 .btn__start_joining {
@@ -372,7 +380,7 @@ input[type=checkbox]:checked ~ div > nav {
 }
 .section__services--offer h3 {
   margin: 0;
-  padding-left: calc(40px - 13px);
+  padding-left: calc(40px - $horizontal-default-space);
 }
 .section__services--offer h4 {
   margin: 0;
@@ -583,6 +591,10 @@ input[type=checkbox]:checked ~ div > nav {
   line-height: 200%;
   color: #FFFFFF;
 }
+.footer__nav li a:hover {
+  color: #f17575;
+  transition: 0.3s;
+}
 
 .div--more--links .main__heading {
   color: #F2F2F2;
@@ -592,7 +604,10 @@ input[type=checkbox]:checked ~ div > nav {
   flex-direction: row;
   margin-bottom: 65px;
 }
-.div--more--links ul span {
+.div--more--links ul a svg:hover {
+  fill: #f17575;
+}
+.div--more--links ul a span {
   display: none;
 }
 .div--more--links ul li:not(:nth-of-type(1)) {
@@ -602,7 +617,7 @@ input[type=checkbox]:checked ~ div > nav {
 body > footer {
   background-color: #100E1D;
   padding-top: 36px;
-  padding-left: calc(40px - 13px);
+  padding-left: calc(40px - $horizontal-default-space);
   padding-bottom: 45px;
 }
 body > footer .footer__container {

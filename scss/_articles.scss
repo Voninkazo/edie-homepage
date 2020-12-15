@@ -1,13 +1,17 @@
-@import "./variables";
+@import './variables';
+$sm-font-size: 12px;
+$sm-line-height: 18px;
+$md-font-size: 18px;
+$md-line-height: 27px;
 .section__adds {
     >div {
         padding-top: 40px;
-        padding-left: calc(40px - 13px);
+        padding-left: calc(40px - $horizontal-default-space);
     }
     p {
         font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
+        font-size: $sm-font-size;
+        line-height: $sm-line-height;
         color: #2D9CDB;
         margin: 0;
         padding-bottom: 15px;
@@ -18,19 +22,19 @@
     }
     .img_design {
         width: 100%;
-        border-radius: 18px
+        border-radius: 18px;
     }
 }
 
 .section__goals {
     >div {
-        padding-left: calc(40px - 13px);
+        padding-left: calc(40px - $horizontal-default-space);
         padding-top: 22px;
         padding-bottom: 102px;
     }
     p {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: $sm-font-size;
+        line-height: $sm-line-height;
         color: #4F4F4F;
         margin: 0;
         padding-bottom: 31px;
@@ -45,7 +49,7 @@
     .section__adds {
         >div {
             max-width: 543px;
-            padding-left: calc(277px - 13px);
+            padding-left: calc(277px - $horizontal-default-space);
             padding-top: 96px;
             margin-right: 0;
         }
@@ -57,7 +61,7 @@
         padding-bottom: 200px;
         >div {
             max-width: 366px;
-            padding-left: calc(277px - 13px);
+            padding-left: calc(277px - $horizontal-default-space);
             padding-bottom: 0;
         }
         h2 {
@@ -65,8 +69,8 @@
         }
         p {
             padding-bottom: 42px;
-            font-size: 18px;
-            line-height: 27px;
+            font-size: $md-font-size;
+            line-height: $md-line-height;
         }
     }
 }

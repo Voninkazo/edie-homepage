@@ -1,4 +1,7 @@
-html {}
+@import './variables';
+html {
+    font-size: 16px;
+}
 
 body {
     font-family: 'Poppins';
@@ -17,8 +20,8 @@ ul {
 
 article,
 .wrapper {
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: $horizontal-default-space;
+    padding-right: $horizontal-default-space;
 }
 
 main {

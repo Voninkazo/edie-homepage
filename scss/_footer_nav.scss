@@ -6,6 +6,10 @@
             line-height: 200%;
             color: #FFFFFF;
         }
+        a:hover {
+            color: #f17575;
+            transition: .3s;
+        }
     }
 }
 
@@ -17,7 +21,10 @@
         display: flex;
         flex-direction: row;
         margin-bottom: 65px;
-        span {
+        a svg:hover {
+            fill: #f17575;
+        }
+        a span {
             display: none;
         }
         li:not(:nth-of-type(1)) {

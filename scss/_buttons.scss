@@ -12,6 +12,10 @@
     color: #F2F2F2;
 }
 
+.link-to-join:hover {
+    background-color: #079df5;
+}
+
 .btn__start_joining {
     font-weight: 500;
     font-size: 16px;
@@ -40,8 +44,6 @@
 
 .btn__frontend--offer svg {
     background-color: #27AE60;
-    // padding: 20px;
-    // border-radius: 16px;
 }
 
 .btn__backend--offer svg {

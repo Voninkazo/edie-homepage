@@ -3,7 +3,7 @@
     margin-bottom: calc(146px - 43px);
     h3 {
         margin: 0;
-        padding-left: calc(40px - 13px);
+        padding-left: calc(40px - $horizontal-default-space);
     }
     h4 {
         margin: 0;
@@ -59,7 +59,7 @@
                 font-family: 'Poppins Medium';
                 font-size: 18px;
                 line-height: 27px;
-                color: #333333;
+                color: $default-gray-text-color;
                 margin: 0;
             }
         }

@@ -1,11 +1,12 @@
+@import './variables';
 body>footer {
     background-color: #100E1D;
     padding-top: 36px;
-    padding-left: calc(40px - 13px);
+    padding-left: calc(40px - $horizontal-default-space);
     padding-bottom: 45px;
     .footer__container {
-        padding-left: 13px;
-        padding-right: 13px;
+        padding-left: $horizontal-default-space;
+        padding-right: $horizontal-default-space;
     }
 }
 
